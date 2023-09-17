@@ -1,4 +1,3 @@
-import './globals.css'
 
 export default function RootLayout({
   children,
@@ -6,8 +5,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+      <main>
+        <div>最外面layout</div>
+        
+        {children}
+        </main>
   )
 }
