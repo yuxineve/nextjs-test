@@ -6,13 +6,9 @@ import './globals.css'
 
 
 export default function page() {
-  // const { data, error, isLoading } = useSWR(
-  //   "https://api.github.com/repos/vercel/swr",
-  //   fetch
-  // );
   return (
     <Layout>
-      最外面
+      最外面yy
     </Layout>
   )
 }
